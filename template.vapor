@@ -1,0 +1,10 @@
+{
+    "name": "Fluent",
+    "package": {
+        "url": "https://github.com/vapor/fluent-#lowercase(fluentdb).git",
+        "version": "#(fluentversion)"
+    }
+    "imports": [
+        "Fluent#(fluentdb)"
+    ]
+}

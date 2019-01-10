@@ -2,13 +2,15 @@
     {
         "var": "fluentdb",
         "question": "which fluent database?",
-        "answers": [
+        "choices": [
             "SQLite",
             "PostgreSQL",
-            "MySQL",
+            "MySQL"
         ]
     },
     {
-        "var": 
+        "var": "fluentversion",
+        "question": "which version?",
+        "default": "3.0.0"
     }
 ]
