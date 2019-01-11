@@ -1,9 +1,9 @@
 {
     "name": "vapor template",
     "excluding": [
-        "leaf.seed"
+
     ],
-    "questions": [
+    "display": [
         { 
             "var": "fluent",
             "display": "would you like to use fluent?",
