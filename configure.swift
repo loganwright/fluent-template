@@ -2,7 +2,7 @@
 services.register { c -> #(fluentdb)Database in
     #if(fluentdb == "SQLite") {
     return try #(fluentdb)Database(storage: .memory)
-    } ##else() {
+    } ##() {
     return try #(fluentdb)Database(config: c.make())<% } %>
     }
 }
