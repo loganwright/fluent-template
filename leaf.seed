@@ -1,6 +1,6 @@
 {
     "name": "vapor template",
-    "excluding": [
+    "excludes": [
         "leaf.seed"
     ],
     "questions": [
@@ -17,19 +17,23 @@
                 "PostgreSQL",
                 "MySQL"
             ],
-            "matchCondition": {
-                "var": "fluent",
-                "equals": "true"
-            }
+            "conditions": [
+                {
+                    "var": "fluent",
+                    "equals": "true"
+                }
+            ]
         },
         {
             "var": "fluentversion",
             "display": "which version?",
             "default": "3.0.0",
-            "matchCondition": {
-                "var": "fluent",
-                "equals": "true"
-            }
+            "conditions": [
+                {
+                    "var": "fluent",
+                    "equals": "true"
+                }
+            ]
         }
     ]
 }
